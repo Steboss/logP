@@ -1,0 +1,4 @@
+source leaprc.gaff
+mol = loadmol2 ../b.mol2
+saveamberparm mol  b_vac.prmtop b_vac.rst7
+quit

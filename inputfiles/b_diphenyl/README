@@ -1,0 +1,13 @@
+Starting from the smiles structure I am creating a pdb file with obabel
+
+obabel -ismi smile.smi -opdb a.pdb --gen3d -h > a.pdb
+
+
+Now, since the charges here are not given, we can process this input files with tleap 
+we can create solvated and cyclohexane-ted form
+
+From the pdb we can create a mol2 via antechamber and parametrize the atom type with gaff:
+
+antechamber -i a.pdb -fi pdb -o a.mol2 -fo mol2 -c bcc -at gaff
+
+

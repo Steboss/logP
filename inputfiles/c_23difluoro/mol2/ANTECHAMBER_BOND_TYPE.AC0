@@ -1,0 +1,59 @@
+CHARGE      0.00 ( 0 )
+Formula: H14 C12 F2 
+ATOM      1  F   LIG     1       0.875   0.034  -0.233  0.000000         F
+ATOM      2  C   LIG     1       2.228   0.056  -0.062  0.000000         C
+ATOM      3  C   LIG     1       2.769  -1.352  -0.294  0.000000         C
+ATOM      4  C   LIG     1       2.615  -1.791  -1.749  0.000000         C
+ATOM      5  C   LIG     1       3.221  -0.776  -2.718  0.000000         C
+ATOM      6  C   LIG     1       2.633   0.626  -2.488  0.000000         C
+ATOM      7  C   LIG     1       2.835   1.068  -1.027  0.000000         C
+ATOM      8  F   LIG     1       4.169   1.159  -0.745  0.000000         F
+ATOM      9  C   LIG     1       3.163   1.634  -3.494  0.000000         C
+ATOM     10  C   LIG     1       2.284   2.230  -4.412  0.000000         C
+ATOM     11  C   LIG     1       2.748   3.155  -5.349  0.000000         C
+ATOM     12  C   LIG     1       4.098   3.498  -5.382  0.000000         C
+ATOM     13  C   LIG     1       4.983   2.914  -4.480  0.000000         C
+ATOM     14  C   LIG     1       4.520   1.988  -3.543  0.000000         C
+ATOM     15  H   LIG     1       2.426   0.356   0.972  0.000000         H
+ATOM     16  H   LIG     1       2.234  -2.061   0.348  0.000000         H
+ATOM     17  H   LIG     1       3.828  -1.389  -0.014  0.000000         H
+ATOM     18  H   LIG     1       1.550  -1.922  -1.979  0.000000         H
+ATOM     19  H   LIG     1       3.093  -2.767  -1.891  0.000000         H
+ATOM     20  H   LIG     1       3.029  -1.102  -3.748  0.000000         H
+ATOM     21  H   LIG     1       4.310  -0.765  -2.591  0.000000         H
+ATOM     22  H   LIG     1       1.547   0.547  -2.646  0.000000         H
+ATOM     23  H   LIG     1       2.392   2.057  -0.864  0.000000         H
+ATOM     24  H   LIG     1       1.226   1.977  -4.409  0.000000         H
+ATOM     25  H   LIG     1       2.056   3.608  -6.054  0.000000         H
+ATOM     26  H   LIG     1       4.459   4.218  -6.111  0.000000         H
+ATOM     27  H   LIG     1       6.037   3.180  -4.503  0.000000         H
+ATOM     28  H   LIG     1       5.232   1.547  -2.849  0.000000         H
+BOND    1    1    2    0      F    C
+BOND    2    2    3    0      C    C
+BOND    3    2    7    0      C    C
+BOND    4    2   15    0      C    H
+BOND    5    3    4    0      C    C
+BOND    6    3   16    0      C    H
+BOND    7    3   17    0      C    H
+BOND    8    4    5    0      C    C
+BOND    9    4   18    0      C    H
+BOND   10    4   19    0      C    H
+BOND   11    5    6    0      C    C
+BOND   12    5   20    0      C    H
+BOND   13    5   21    0      C    H
+BOND   14    6    7    0      C    C
+BOND   15    6    9    0      C    C
+BOND   16    6   22    0      C    H
+BOND   17    7    8    0      C    F
+BOND   18    7   23    0      C    H
+BOND   19    9   10    0      C    C
+BOND   20    9   14    0      C    C
+BOND   21   10   11    0      C    C
+BOND   22   10   24    0      C    H
+BOND   23   11   12    0      C    C
+BOND   24   11   25    0      C    H
+BOND   25   12   13    0      C    C
+BOND   26   12   26    0      C    H
+BOND   27   13   14    0      C    C
+BOND   28   13   27    0      C    H
+BOND   29   14   28    0      C    H

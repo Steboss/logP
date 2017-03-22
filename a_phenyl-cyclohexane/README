@@ -1,3 +1,0 @@
-Starting from the smiles structure I am creating a pdb file with obabel
-
-obabel -ismi smile.smi -opdb a.pdb --gen3d -h > a.pdb

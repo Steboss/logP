@@ -1,0 +1,10 @@
+Here I am studying the logP between water and cyclohexane for 5 small molecules
+This molecules come from a study of OHagan and they have a very hydrophobic nature
+
+
+
+To process the cif file I have used obabel:
+
+obabel -icif 1.cif -opdb 1.pdb
+
+obabel -icif 1.cif -omol2 1.mol2
