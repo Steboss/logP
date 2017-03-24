@@ -1,28 +1,10 @@
 version 1
  molecule LIG
 	 atom
-	 	 name F
-	 	 initial_type    f
-		 final_type      f
-		 initial_charge -0.23830
-		 final_charge    0.00000
-		 initial_LJ      3.11815  0.06100
-		 final_LJ        3.11815  0.06100
-	 endatom
-	 atom
-	 	 name C
-	 	 initial_type    c3
-		 final_type      c3
-		 initial_charge  0.13860
-		 final_charge    0.00000
-		 initial_LJ      3.39967  0.10940
-		 final_LJ        3.39967  0.10940
-	 endatom
-	 atom
 	 	 name C1
 	 	 initial_type    c3
 		 final_type      c3
-		 initial_charge -0.10740
+		 initial_charge  0.15760
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.10940
 		 final_LJ        3.39967  0.10940
@@ -31,7 +13,7 @@ version 1
 	 	 name C2
 	 	 initial_type    c3
 		 final_type      c3
-		 initial_charge -0.11040
+		 initial_charge -0.06940
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.10940
 		 final_LJ        3.39967  0.10940
@@ -40,25 +22,16 @@ version 1
 	 	 name C3
 	 	 initial_type    c3
 		 final_type      c3
-		 initial_charge  0.17960
+		 initial_charge  0.18060
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.10940
 		 final_LJ        3.39967  0.10940
 	 endatom
 	 atom
-	 	 name F1
-	 	 initial_type    f
-		 final_type      f
-		 initial_charge -0.23330
-		 final_charge    0.00000
-		 initial_LJ      3.11815  0.06100
-		 final_LJ        3.11815  0.06100
-	 endatom
-	 atom
 	 	 name C4
 	 	 initial_type    c3
 		 final_type      c3
-		 initial_charge -0.07140
+		 initial_charge -0.10840
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.10940
 		 final_LJ        3.39967  0.10940
@@ -67,34 +40,52 @@ version 1
 	 	 name C5
 	 	 initial_type    c3
 		 final_type      c3
-		 initial_charge  0.15560
+		 initial_charge -0.11140
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.10940
 		 final_LJ        3.39967  0.10940
 	 endatom
 	 atom
-	 	 name F2
+	 	 name C6
+	 	 initial_type    c3
+		 final_type      c3
+		 initial_charge  0.14460
+		 final_charge    0.00000
+		 initial_LJ      3.39967  0.10940
+		 final_LJ        3.39967  0.10940
+	 endatom
+	 atom
+	 	 name F1
 	 	 initial_type    f
 		 final_type      f
-		 initial_charge -0.22530
+		 initial_charge -0.21930
 		 final_charge    0.00000
 		 initial_LJ      3.11815  0.06100
 		 final_LJ        3.11815  0.06100
 	 endatom
 	 atom
-	 	 name C6
-	 	 initial_type    ca
-		 final_type      ca
-		 initial_charge -0.09530
+	 	 name F2
+	 	 initial_type    f
+		 final_type      f
+		 initial_charge -0.22930
 		 final_charge    0.00000
-		 initial_LJ      3.39967  0.08600
-		 final_LJ        3.39967  0.08600
+		 initial_LJ      3.11815  0.06100
+		 final_LJ        3.11815  0.06100
+	 endatom
+	 atom
+	 	 name F3
+	 	 initial_type    f
+		 final_type      f
+		 initial_charge -0.22930
+		 final_charge    0.00000
+		 initial_LJ      3.11815  0.06100
+		 final_LJ        3.11815  0.06100
 	 endatom
 	 atom
 	 	 name C7
 	 	 initial_type    ca
 		 final_type      ca
-		 initial_charge -0.11300
+		 initial_charge -0.12200
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.08600
 		 final_LJ        3.39967  0.08600
@@ -103,7 +94,7 @@ version 1
 	 	 name C8
 	 	 initial_type    ca
 		 final_type      ca
-		 initial_charge -0.13300
+		 initial_charge -0.13200
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.08600
 		 final_LJ        3.39967  0.08600
@@ -112,7 +103,7 @@ version 1
 	 	 name C9
 	 	 initial_type    ca
 		 final_type      ca
-		 initial_charge -0.12300
+		 initial_charge -0.11300
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.08600
 		 final_LJ        3.39967  0.08600
@@ -121,7 +112,7 @@ version 1
 	 	 name C10
 	 	 initial_type    ca
 		 final_type      ca
-		 initial_charge -0.13300
+		 initial_charge -0.09730
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.08600
 		 final_LJ        3.39967  0.08600
@@ -136,85 +127,85 @@ version 1
 		 final_LJ        3.39967  0.08600
 	 endatom
 	 atom
-	 	 name H
+	 	 name C12
+	 	 initial_type    ca
+		 final_type      ca
+		 initial_charge -0.13200
+		 final_charge    0.00000
+		 initial_LJ      3.39967  0.08600
+		 final_LJ        3.39967  0.08600
+	 endatom
+	 atom
+	 	 name H1
 	 	 initial_type    h1
 		 final_type      h1
-		 initial_charge  0.06670
+		 initial_charge  0.06970
 		 final_charge    0.00000
 		 initial_LJ      2.47135  0.01570
 		 final_LJ        2.47135  0.01570
 	 endatom
 	 atom
-	 	 name H1
-	 	 initial_type    hc
-		 final_type      hc
-		 initial_charge  0.06870
-		 final_charge    0.00000
-		 initial_LJ      2.64953  0.01570
-		 final_LJ        2.64953  0.01570
-	 endatom
-	 atom
 	 	 name H2
 	 	 initial_type    hc
 		 final_type      hc
-		 initial_charge  0.06870
+		 initial_charge  0.06770
 		 final_charge    0.00000
 		 initial_LJ      2.64953  0.01570
 		 final_LJ        2.64953  0.01570
 	 endatom
 	 atom
 	 	 name H3
-	 	 initial_type    hc
-		 final_type      hc
-		 initial_charge  0.06220
+	 	 initial_type    h1
+		 final_type      h1
+		 initial_charge  0.05970
 		 final_charge    0.00000
-		 initial_LJ      2.64953  0.01570
-		 final_LJ        2.64953  0.01570
+		 initial_LJ      2.47135  0.01570
+		 final_LJ        2.47135  0.01570
 	 endatom
 	 atom
 	 	 name H4
 	 	 initial_type    hc
 		 final_type      hc
-		 initial_charge  0.06220
+		 initial_charge  0.05870
 		 final_charge    0.00000
 		 initial_LJ      2.64953  0.01570
 		 final_LJ        2.64953  0.01570
 	 endatom
 	 atom
 	 	 name H5
-	 	 initial_type    h1
-		 final_type      h1
-		 initial_charge  0.06070
+	 	 initial_type    hc
+		 final_type      hc
+		 initial_charge  0.05870
 		 final_charge    0.00000
-		 initial_LJ      2.47135  0.01570
-		 final_LJ        2.47135  0.01570
+		 initial_LJ      2.64953  0.01570
+		 final_LJ        2.64953  0.01570
 	 endatom
 	 atom
 	 	 name H6
 	 	 initial_type    hc
 		 final_type      hc
-		 initial_charge  0.07970
+		 initial_charge  0.07170
 		 final_charge    0.00000
 		 initial_LJ      2.64953  0.01570
 		 final_LJ        2.64953  0.01570
 	 endatom
 	 atom
 	 	 name H7
-	 	 initial_type    h1
-		 final_type      h1
-		 initial_charge  0.07070
+	 	 initial_type    hc
+		 final_type      hc
+		 initial_charge  0.07170
 		 final_charge    0.00000
-		 initial_LJ      2.47135  0.01570
-		 final_LJ        2.47135  0.01570
+		 initial_LJ      2.64953  0.01570
+		 final_LJ        2.64953  0.01570
 	 endatom
 	 atom
 	 	 name H8
-	 	 initial_type    ha
-		 final_type      ha
-		 initial_charge  0.14200
+	 	 initial_type    h1
+		 final_type      h1
+		 initial_charge  0.05370
 		 final_charge    0.00000
-		 initial_LJ      2.59964  0.01500
-		 final_LJ        2.59964  0.01500
+		 initial_LJ      2.47135  0.01570
+		 final_LJ        2.47135  0.01570
 	 endatom
 	 atom
 	 	 name H9
@@ -229,7 +220,7 @@ version 1
 	 	 name H10
 	 	 initial_type    ha
 		 final_type      ha
-		 initial_charge  0.13200
+		 initial_charge  0.13400
 		 final_charge    0.00000
 		 initial_LJ      2.59964  0.01500
 		 final_LJ        2.59964  0.01500
@@ -238,7 +229,7 @@ version 1
 	 	 name H11
 	 	 initial_type    ha
 		 final_type      ha
-		 initial_charge  0.13300
+		 initial_charge  0.14150
 		 final_charge    0.00000
 		 initial_LJ      2.59964  0.01500
 		 final_LJ        2.59964  0.01500
@@ -247,7 +238,16 @@ version 1
 	 	 name H12
 	 	 initial_type    ha
 		 final_type      ha
-		 initial_charge  0.14200
+		 initial_charge  0.14150
+		 final_charge    0.00000
+		 initial_LJ      2.59964  0.01500
+		 final_LJ        2.59964  0.01500
+	 endatom
+	 atom
+	 	 name H13
+	 	 initial_type    ha
+		 final_type      ha
+		 initial_charge  0.13400
 		 final_charge    0.00000
 		 initial_LJ      2.59964  0.01500
 		 final_LJ        2.59964  0.01500

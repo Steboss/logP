@@ -1,24 +1,6 @@
 version 1
  molecule LIG
 	 atom
-	 	 name F
-	 	 initial_type    f
-		 final_type      du
-		 initial_charge  0.00000
-		 final_charge    0.00000
-		 initial_LJ      3.11815  0.06100
-		 final_LJ        0.00000  0.00000
- 	 endatom
-	 atom
-	 	 name C
-	 	 initial_type    c3
-		 final_type      du
-		 initial_charge  0.00000
-		 final_charge    0.00000
-		 initial_LJ      3.39967  0.10940
-		 final_LJ        0.00000  0.00000
- 	 endatom
-	 atom
 	 	 name C1
 	 	 initial_type    c3
 		 final_type      du
@@ -37,30 +19,12 @@ version 1
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
-	 	 name F1
-	 	 initial_type    f
-		 final_type      du
-		 initial_charge  0.00000
-		 final_charge    0.00000
-		 initial_LJ      3.11815  0.06100
-		 final_LJ        0.00000  0.00000
- 	 endatom
-	 atom
 	 	 name C3
 	 	 initial_type    c3
 		 final_type      du
 		 initial_charge  0.00000
 		 final_charge    0.00000
 		 initial_LJ      3.39967  0.10940
-		 final_LJ        0.00000  0.00000
- 	 endatom
-	 atom
-	 	 name F2
-	 	 initial_type    f
-		 final_type      du
-		 initial_charge  0.00000
-		 final_charge    0.00000
-		 initial_LJ      3.11815  0.06100
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
@@ -82,6 +46,33 @@ version 1
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
+	 	 name C6
+	 	 initial_type    c3
+		 final_type      du
+		 initial_charge  0.00000
+		 final_charge    0.00000
+		 initial_LJ      3.39967  0.10940
+		 final_LJ        0.00000  0.00000
+ 	 endatom
+	 atom
+	 	 name F1
+	 	 initial_type    f
+		 final_type      du
+		 initial_charge  0.00000
+		 final_charge    0.00000
+		 initial_LJ      3.11815  0.06100
+		 final_LJ        0.00000  0.00000
+ 	 endatom
+	 atom
+	 	 name F2
+	 	 initial_type    f
+		 final_type      du
+		 initial_charge  0.00000
+		 final_charge    0.00000
+		 initial_LJ      3.11815  0.06100
+		 final_LJ        0.00000  0.00000
+ 	 endatom
+	 atom
 	 	 name F3
 	 	 initial_type    f
 		 final_type      du
@@ -91,12 +82,12 @@ version 1
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
-	 	 name C6
-	 	 initial_type    ca
+	 	 name F4
+	 	 initial_type    f
 		 final_type      du
 		 initial_charge  0.00000
 		 final_charge    0.00000
-		 initial_LJ      3.39967  0.08600
+		 initial_LJ      3.11815  0.06100
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
@@ -145,21 +136,21 @@ version 1
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
-	 	 name H
+	 	 name C12
+	 	 initial_type    ca
+		 final_type      du
+		 initial_charge  0.00000
+		 final_charge    0.00000
+		 initial_LJ      3.39967  0.08600
+		 final_LJ        0.00000  0.00000
+ 	 endatom
+	 atom
+	 	 name H1
 	 	 initial_type    h1
 		 final_type      du
 		 initial_charge  0.00000
 		 final_charge    0.00000
 		 initial_LJ      2.47135  0.01570
-		 final_LJ        0.00000  0.00000
- 	 endatom
-	 atom
-	 	 name H1
-	 	 initial_type    hc
-		 final_type      du
-		 initial_charge  0.00000
-		 final_charge    0.00000
-		 initial_LJ      2.64953  0.01570
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
@@ -200,20 +191,20 @@ version 1
  	 endatom
 	 atom
 	 	 name H6
+	 	 initial_type    hc
+		 final_type      du
+		 initial_charge  0.00000
+		 final_charge    0.00000
+		 initial_LJ      2.64953  0.01570
+		 final_LJ        0.00000  0.00000
+ 	 endatom
+	 atom
+	 	 name H7
 	 	 initial_type    h1
 		 final_type      du
 		 initial_charge  0.00000
 		 final_charge    0.00000
 		 initial_LJ      2.47135  0.01570
-		 final_LJ        0.00000  0.00000
- 	 endatom
-	 atom
-	 	 name H7
-	 	 initial_type    ha
-		 final_type      du
-		 initial_charge  0.00000
-		 final_charge    0.00000
-		 initial_LJ      2.59964  0.01500
 		 final_LJ        0.00000  0.00000
  	 endatom
 	 atom
@@ -245,6 +236,15 @@ version 1
  	 endatom
 	 atom
 	 	 name H11
+	 	 initial_type    ha
+		 final_type      du
+		 initial_charge  0.00000
+		 final_charge    0.00000
+		 initial_LJ      2.59964  0.01500
+		 final_LJ        0.00000  0.00000
+ 	 endatom
+	 atom
+	 	 name H12
 	 	 initial_type    ha
 		 final_type      du
 		 initial_charge  0.00000
