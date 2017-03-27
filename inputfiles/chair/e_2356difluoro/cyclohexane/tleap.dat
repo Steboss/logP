@@ -1,0 +1,6 @@
+source leaprc.gaff
+loadoff ../../cyclohexane/cyc.off
+mol = loadmol2 ../e.mol2
+solvatebox mol CYC 20.0 0.75 iso
+saveamberparm mol solvated.parm7 solvated.rst7
+quit

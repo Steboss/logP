@@ -1,0 +1,7 @@
+source leaprc.protein.ff14SB
+source leaprc.gaff
+source leaprc.water.tip3p
+mol = loadmol2 ../d.mol2
+solvatebox mol TIP3PBOX  12.0 0.75 iso
+saveamberparm mol solvated.parm7 solvated.rst7
+quit
