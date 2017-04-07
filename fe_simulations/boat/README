@@ -1,0 +1,5 @@
+Inputfiles for a,c,d,e molecules starting with boat conformations
+Some molecule may present a chair conformation, which was immediately adopted after a tiny 
+minimization/equilibration in sander
+molecule a is present in a_axial: the substituent is in axial position 
+                         a_eq:    the substituent is in equatorial position
