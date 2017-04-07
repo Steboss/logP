@@ -1,0 +1,30 @@
+Analysis folder:
+
+- boat: here you can find conformational analysis performed on boat conformation simulations
+        Inside the folder you will have:
+        a) boat_histogram.ipynb  :  ipython notebook with histogram of the conformation distribution during the simulations
+        for molecules : a,c,d and e
+        b) Boat_conf_distribution.png: final png of the histogram
+        c) conformational_analysis.ipynb:  conformational  analysis script, this script reads the trajectories and create
+        csv files to use for histogram creation (I used this script once  and then save all the files in dihedral_files/
+        so there is no need to waste time loading trajectories)
+        d) dihedral_files: files with dihedrals values for each snapshot of  the trajectories ( -60 deg 60 deg should be a 
+        chair conformation)
+
+- chair: here you can find conformational analysis performed on chair conformation simulations
+         Inside the folder you will have:
+         a) chair_histogram.ipynb  :  ipython notebook with histogram of the conformation distribution during the simulations
+         for molecules : a,c,d and e
+         b) Chair_conf_distribution.png: final png of the histogram
+         c) conformational_analysis.ipynb:  conformational  analysis script, this script reads the trajectories and create
+         csv files to use for histogram creation (I used this script once  and then save all the files in dihedral_files/
+         so there is no need to waste time loading trajectories)
+         d) dihedral_files: files with dihedrals values for each snapshot of  the trajectories ( -60 deg 60 deg should be a 
+         chair conformation)
+
+- boat_4ns: same as boat, but in this case the simulations were 4 ns long rather than 2 ns
+
+- gradient_analysis:  a) gradient_comparison_boat4ns_chair.ipynb : ipython notebook to compare gradient profiles between boat (4ns) 
+                         simulations and chair
+                      b)  gradient_comparison_boat_chair.ipynb: ipython notebook to compare gradient profiles between boat (2ns) and 
+                          chair simulations

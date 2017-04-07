@@ -1,0 +1,5 @@
+Here I want to analyse the distribution of dihedrals in my molecules
+If they lie around -60 and + 60 it means we have a chair conformations
+
+conformational_analysis.ipynb   needs to create the input dihedral_files (collection of dihedral values)
+boat_histogram.ipynb            give as output the histogram plot
