@@ -1,0 +1,8 @@
+Free energy calculation folder 
+
+
+
+boat: boat conformations inputfiles
+chair: chair conformations inputfiles
+output: (not on Github) trajectories from simulations
+analysis: analyses performed on boat and chair (conformational anaylsis + gradient profiles)
