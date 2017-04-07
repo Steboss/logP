@@ -1,0 +1,5 @@
+inputfiles :
+
+traj000000001.dcd;  trajectory from lambda-0.00 in water of the discharging step
+SYSTEM.top : topology
+SYSTEM.crd : coords

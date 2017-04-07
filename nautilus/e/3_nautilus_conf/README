@@ -1,0 +1,3 @@
+Here I am computing the RMSD w.r.t the average pdb structure 
+The pdb was saved from the avg.dcd obtained in average_structure folder
+the final structure is at frame 1174, whose name is nautilus.pdb

@@ -1,0 +1,11 @@
+Here I am computing the  average structure by using cpptraj as:
+
+cpptraj -p SYSTEM.top
+
+loadcrd md.traj
+#strip the water
+strip :WAT
+#now compute the rms to get rid of translation and rotation on molecule 1
+crdaction md.traj  rms first :1
+#extract the average 
+crdaction md.traj average avg.dcd

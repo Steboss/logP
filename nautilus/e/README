@@ -1,0 +1,11 @@
+Preparation for nautilus analysis
+
+1_input:  inputfiles from molecule e fully interacting simulated at lambda=0.0 of the discharging step
+
+2_average_structure:  computation of the average molecule e structure along the traj with cpptraj
+
+3_nautilus_conf: lowest RMS structure w.r.t. average structure from the trajectory (frame 1174)
+
+4_top_crd : creation of top and crd from the pdb of point 3
+
+final molecule mol_e.prmtop and mol_e.rst7
