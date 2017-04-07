@@ -1,0 +1,34 @@
+REMARK   4      COMPLIES WITH FORMAT V. 3.0, 1-DEC-2006
+REMARK 888
+REMARK 888 WRITTEN BY MAESTRO (A PRODUCT OF SCHRODINGER, LLC)
+TITLE     cyclohexane_boat
+MODEL        1
+HETATM    1  C1  LIG   900       0.635  -1.701   3.040  1.00  0.00           C  
+HETATM    2  C2  LIG   900      -0.862  -1.463   3.354  1.00  0.00           C  
+HETATM    3  C3  LIG   900      -0.614   0.964   2.742  1.00  0.00           C  
+HETATM    4  C4  LIG   900       0.868   0.759   2.358  1.00  0.00           C  
+HETATM    5  C5  LIG   900       1.235  -0.699   2.037  1.00  0.00           C  
+HETATM    6  C6  LIG   900      -1.504  -0.290   2.576  1.00  0.00           C  
+HETATM    7  C1  LIG   900      -2.652  -1.051  -1.577  1.00  0.00           C  
+HETATM    8  C2  LIG   900      -2.904   0.197  -0.978  1.00  0.00           C  
+HETATM    9  C3  LIG   900      -2.531   0.426   0.360  1.00  0.00           C  
+HETATM   10  C4  LIG   900      -1.889  -0.582   1.117  1.00  0.00           C  
+HETATM   11  C5  LIG   900      -1.649  -1.836   0.504  1.00  0.00           C  
+HETATM   12  C6  LIG   900      -2.026  -2.067  -0.833  1.00  0.00           C  
+HETATM   13  H1  LIG   900       1.204  -1.655   3.970  1.00  0.00           H  
+HETATM   14  H2  LIG   900       0.775  -2.713   2.660  1.00  0.00           H  
+HETATM   15  H3  LIG   900      -1.443  -2.379   3.243  1.00  0.00           H  
+HETATM   16  H4  LIG   900      -1.026   1.824   2.216  1.00  0.00           H  
+HETATM   17  H5  LIG   900       1.111   1.383   1.497  1.00  0.00           H  
+HETATM   18  H6  LIG   900       1.499   1.120   3.172  1.00  0.00           H  
+HETATM   19  H7  LIG   900       2.319  -0.809   2.000  1.00  0.00           H  
+HETATM   20  H8  LIG   900       0.886  -0.936   1.031  1.00  0.00           H  
+HETATM   21  H10 LIG   900      -2.456  -0.075   3.067  1.00  0.00           H  
+HETATM   22  H11 LIG   900      -0.930  -1.227   4.417  1.00  0.00           H  
+HETATM   23  H12 LIG   900      -0.640   1.248   3.795  1.00  0.00           H  
+HETATM   24  H1  LIG   900      -2.937  -1.228  -2.604  1.00  0.00           H  
+HETATM   25  H2  LIG   900      -3.384   0.980  -1.547  1.00  0.00           H  
+HETATM   26  H3  LIG   900      -2.743   1.387   0.803  1.00  0.00           H  
+HETATM   27  H4  LIG   900      -1.167  -2.638   1.041  1.00  0.00           H  
+HETATM   28  H5  LIG   900      -1.831  -3.027  -1.290  1.00  0.00           H  
+END   

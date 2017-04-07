@@ -1,0 +1,3 @@
+Here I am creating the vacuum  phase with tleap starting with mol2 file:
+
+tleap -f tleap.dat
