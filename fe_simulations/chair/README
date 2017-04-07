@@ -1,0 +1,3 @@
+Inputfiles for a,b,c,d,e molecules starting with chair conformations
+molecule a is present in a_axial: the substituent is in axial position 
+                         a_eq:    the substituent is in equatorial position
