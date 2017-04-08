@@ -9,3 +9,6 @@ strip :WAT
 crdaction md.traj  rms first :1
 #extract the average 
 crdaction md.traj average avg.dcd
+
+
+At the end we will have the average structure of the molecule
