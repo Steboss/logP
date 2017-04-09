@@ -1,0 +1,4 @@
+Creation of prmtop and rst7 files from a.pdb 
+a.pdb was created in Maestro, in order to be symmetric
+then, with tleap I processed the molecule by using the off and frcmod files
+extracted from files in 1_input
