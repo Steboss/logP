@@ -1,0 +1,8 @@
+# 04/28/17 16:42:48
+# -p ../e.prmtop
+# Loaded topologies:
+#   ../e.prmtop
+trajin traj000000001.dcd 2000 2000 1
+trajout solvated.rst7
+go
+quit

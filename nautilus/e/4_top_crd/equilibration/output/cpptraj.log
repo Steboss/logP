@@ -1,8 +1,0 @@
-# 04/08/17 14:49:58
-# -p ../SYSTEM.top
-# Loaded topologies:
-#   ../SYSTEM.top
-trajin traj000000001.dcd 766 766
-trajout solvated.rst7
-go
-quit

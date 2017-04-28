@@ -1,0 +1,6 @@
+Creation of mol2 files starting from the maestro mol2 with antechamber:
+
+antechamber -i mol_e.mol2 -fi mol2 -o e.mol2 -fo mol2 -c bcc -at gaff
+
+then I checked in test_charge if the charges between starting molecules and
+the final one are correct

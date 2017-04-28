@@ -1,0 +1,8 @@
+Here I am going to solvate the molecule e in a box of tip3p water
+Since charges and atom types are the same as in the original molecules
+we do not need off and frcmod files
+
+To create the solvated structure e.prmtop and e.rst7:
+tleap -f tleap.dat
+
+

@@ -1,0 +1,8 @@
+Calculation with ipynb of the most likely dihedral C1-C2-C10-C11 in a trajectory
+To calculate C1-C2-C10-C11 dihedral I have took three different trajectories of 
+molecule E in water:
+1) From lambda-0.000 Run001 discharging step
+2) from lambda-0.000 Run002 discharging step
+3) from md_simulation in this folder
+
+The value of C1-C2-C10-C11 dihedral is on aveage 300 degree

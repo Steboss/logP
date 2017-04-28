@@ -1,0 +1,11 @@
+Here I equilibrate the system with a 2ns simulation + minimization and 
+I am applying restraints on the solute
+The final coordiantes were extracted using cpptraj :
+
+cpptraj -p ../e.prmtop
+trajin tra*.dcd  2000 2000 1
+trajout solvated.rst7
+go
+quit
+
+

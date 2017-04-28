@@ -1,0 +1,4 @@
+Here I am computing the RMSD w.r.t the average pdb structure compute in 2_average_structure folder
+From the behavior of the molecule in the trajectory is clear that no structure is actually
+a good "average" one. The benzene ring is fluctuating quite a lot, thus the best structure
+could be a "symmetric" molecule which I will create from scratch

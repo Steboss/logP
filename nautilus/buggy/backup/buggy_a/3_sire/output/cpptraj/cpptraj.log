@@ -1,0 +1,66 @@
+# 04/09/17 15:29:05
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd
+trajin ../traj000000001.dcd 420 452 539 541
+# 04/09/17 15:29:25
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd 541 541
+trajout solvated_541.rst7
+go
+trajin ../traj000000001.dcd
+trajin ../traj000000001.dcd 539
+# 04/09/17 15:30:04
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd 539 539
+trajout solvated_539.rst7
+go
+trajin ../traj000000001.dcd 452 452
+trajout solvated_452.rst7
+go
+trajin ../traj000000001.dcd 420 420
+trajout solvated_420.rst7
+go
+quit
+# 04/09/17 15:31:06
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd 541 541
+trajout solvated_541.rst7
+go
+quit
+# 04/09/17 15:31:23
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd 539 539
+trajout solvated_539.rst7
+go
+quit
+# 04/09/17 15:31:38
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd 452
+# 04/09/17 15:31:44
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd 452 452
+trajout solvated_452.rst7
+go
+quit
+# 04/09/17 15:31:58
+# -p ../../a.prmtop
+# Loaded topologies:
+#   ../../a.prmtop
+trajin ../traj000000001.dcd 420 420
+trajout solvated_42.rst7
+go
+quit

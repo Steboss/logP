@@ -1,0 +1,5 @@
+Inputfiles for Nautilus:
+
+a/SYSTEM.top and SYSTEM.crd : crd and top for molecule A
+
+e/SYSTEM.top and SYSTEM.crd : crd and top for molecule E

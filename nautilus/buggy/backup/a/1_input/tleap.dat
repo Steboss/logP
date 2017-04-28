@@ -1,0 +1,9 @@
+source leaprc.water.tip3p
+source leaprc.protein.ff14SB
+source leaprc.gaff
+loadamberparams a.frcmod
+loadoff a.off
+mol = loadpdb a.pdb
+set mol box {32.8608770 30.3179409 33.4271141}
+saveamberparm mol a.prmtop a.rst7
+quit

@@ -1,0 +1,60 @@
+Here I am creating the molecule a starting from the backbone of molecule e
+
+
+molecule e has been modified in order to have only hydrogen atoms  (rather than F)
+then, I have extracted frcmod and off from the original molecule a
+To reproduce:
+
+cd off_frcmod
+python off.py
+
+
+the script will give as output a.frcmod and a.off
+
+
+Unfortunately, here we have to remap all the atoms, since there is a mismatch - except from C1 to C6:
+
+old(mol a map)   -->   new (mol a from mol e)
+
+H1                             H5
+H2			                       H6
+H4                             H1
+H3                             H7
+H5                             H8
+H6                             H2
+H7                             H9
+H8                             H10
+H9                             H3
+H10                            H11
+H11                            H4
+H16                            H15
+H15                            H16
+H14                            H12
+H13                            H13
+H12                            H14
+
+C7                             C10
+C8                             C9
+C9                             C8
+C10                            C7
+C11                            C12
+C12                            C11
+
+then with the new a.frcmod and a.off ( in current folder) we can create molecule a with tleap as:
+
+tleap -f tleap.dat
+
+
+we will have molecule a, solvated in the same box as molecule e
+N.B tleap will claim some warning about bond lengths, but they SHOULD be ok in the final topology
+(to check you can go in comparison folder and run compare_mol.py :
+
+python compare_mol.py
+
+this will give as output: bond_compare.csv, with the list of all the bonds in the molecule and
+their lenghts
+and                       compare.csv  to compare the atoms of original molecule a and
+the new molecule in terms of charge: BE AWARE! Remember that atoms have been remapped)
+
+In folder remapped_off I have copy a.off and a.frcmod with corrected maps, to have a backup
+
