@@ -1,0 +1,11 @@
+Preparation for nautilus analysis
+
+1_input:  inputfiles from molecule a vacuum simulations
+
+2_tleap : creation of top and crd with tleap, starting with pdb created with maestro - symmetric molecule
+
+3_sire : sire equilibration with frozen residue, here I extract rst7 from snapshot 541
+
+4_final_structure: final structure SYSTEM.top SYSTEM.crd  to be used in Nautilus
+
+SYSTEM.top SYSTEM.crd : top and crd to use in Nautilus

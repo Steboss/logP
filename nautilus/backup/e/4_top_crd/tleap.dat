@@ -1,0 +1,7 @@
+source leaprc.protein.ff14SB
+source leaprc.water.tip3p
+source leaprc.gaff
+mol = loadmol2 nautilus_struct.mol2
+solvatebox mol TIP3PBOX 12.0 0.75 iso
+saveamberparm mol test.prmtop test.rst7
+quit

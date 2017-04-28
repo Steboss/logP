@@ -1,0 +1,37 @@
+# 04/07/17 13:59:38
+# -p ../SYSTEM.top
+# Loaded topologies:
+#   ../SYSTEM.top
+loadcrd ../traj000000001.dcd
+strip :WAT
+# 04/07/17 14:00:56
+# -p ../SYSTEM.top
+# Loaded topologies:
+#   ../SYSTEM.top
+trajin md.traj
+strip :WAT
+# 04/07/17 14:01:24
+# ../SYSTEM.top
+# Loaded topologies:
+#   ../SYSTEM.top
+loadcrd md.traj
+strip :WAT
+crdaction md.traj rms first :1
+crdaction md.traj average avg.pdb
+quit
+# 04/07/17 14:03:01
+# -p ../SYSTEM.top
+# Loaded topologies:
+#   ../SYSTEM.top
+trajin md.traj
+# 04/07/17 14:03:09
+# -p ../SYSTEM.top
+# Loaded topologies:
+#   ../SYSTEM.top
+loadcrd md.traj
+strip :WAT
+go
+crdaction md.traj rms first :1
+crdaction md.traj average avg.pdb
+crdaction md.traj average avg.dcd
+quit

@@ -1,4 +1,0 @@
-WeightedMoves{
-  1 : weight == 1, timing = 0.427836 ms
-       MolecularDynamics( OpenMMMDIntegrator(), timeStep() == 0.5 fs, nMoves() == 100000 )
-}
